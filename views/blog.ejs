@@ -1,0 +1,108 @@
+<html lang="en">
+  <%- include("./partials/header.ejs") %>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/blog.css"> 
+</head>  
+<body>
+ <div class="menu-text">
+  <h1>Our Menu</h1>
+  <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
+ </div>
+ <div class="menu-list">
+  <ul>
+    <li><p>ALL</p></li>
+    <li><p>Breakfast</p></li>
+    <li><p>Main Dishes</p></li>
+    <li><p>Drinks</p></li>
+    <li><p>Desserts</p></li>
+  </ul>
+ </div>
+    <% if (blogs.length > 0) { %>
+      <% blogs.forEach(blog => { %>
+        <a class="single" href="/blogs/<%= blog._id %>">
+          <div class="menu-item">
+          <p class="component"><%= blog.price %></p>
+          <h3 class="title"><%= blog.title %></h3>
+          </div>
+        </a>
+      <% }) %>
+    <% } else { %>
+      <p>There are no blogs to display...</p>
+    <% } %>
+<div class="food-menu">
+  <div class="food-menu1">
+    <div class="food1">
+      <img src="/images/pexels-daniela-constantini-5591664 1.jpg">
+      <h1>$ 9.99</h1>
+      <h2>Fried Eggs</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food2">
+      <img src="/images/pexels-maksim-goncharenok-4773769 1.jpg">
+      <h1>$ 15.99</h1>
+      <h2>Hawaiian Pizza</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food3">
+      <img src="/images/pexels-nadin-sh-12956424 1.jpg">
+      <h1>$ 7.25</h1>
+      <h2>Martinez Cocktail</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food4">
+      <img src="/images/pexels-ruslan-khmelevsky-7845121 1.jpg">
+      <h1>$ 20.99</h1>
+      <h2>Butterscotch Cake</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+  </div>
+  <div class="food-menu2">
+    <div class="food5">
+      <img src="/images/pexels-bam-awey-5335918 1.jpg">
+      <h1>$ 5.89</h1>
+      <h2>Mint Lemonade</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food6">
+      <img src="/images/pexels-roman-odintsov-5061254 1.jpg">
+      <h1>$ 18.05</h1>
+      <h2>Chocolate Icecream</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food7">
+      <img src="/images/pexels-pixabay-327158 1.jpg">
+      <h1>$ 12.55</h1>
+      <h2>Cheese Burger</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+    <div class="food8">
+      <img src="/images/pexels-nicola-barts-7937386 1.jpg">
+      <h1>$ 12.99</h1>
+      <h2>Classic Waffles</h2>
+      <p>Made with eggs, lettuce, salt, oil and other ingredients.</p>
+    </div>
+  </div>
+</div>   
+
+<div class="apps-menu">
+  <div class="apps-text">
+    <h1>You can order through apps</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit enim bibendum sed et aliquet aliquet risus tempor semper.</p>
+  </div>
+  <div class="apps-images">
+    <img src="/images/Group.jpg">
+    <img src="/images/Vector.jpg">
+    <img src="/images/Vector (1).jpg">
+    <img src="/images/Vector (2).jpg">
+    <img src="/images/Group (1).jpg">
+    <img src="/images/Vector (3).jpg">
+    <img src="/images/Group 39981.jpg">
+    <img src="/images/Group 39980.jpg">
+    <img src="/images/Group 39979.jpg">
+  </div>
+</div>
+</body>
+<%- include("./partials/footer.ejs") %>
+</html>

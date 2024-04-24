@@ -1,0 +1,57 @@
+<head>
+  <link rel="stylesheet" href="/header.css">
+  <script src="https://kit.fontawesome.com/97450a4abb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<div class="top-bar">
+  <div class="container">
+    <div class="phone">
+      <i class="fa-solid fa-phone"></i>
+      <p>(414) 857 - 0107</p>
+    </div>
+    <div class="email">
+      <i class="fa-regular fa-envelope"></i>
+      <p>yummy@bistrobliss</p>
+    </div>
+  </div>
+  <div class="icons">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-github"></i>
+  </div>
+</div>
+<div class="button">
+  <div class="logo">
+    <i class="fa-solid fa-bowl-food"></i>
+    <h1><a href="/">Bistro Bliss</a></h1>
+  </div>
+  <div class="links">
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/about">about</a></li>
+      <li><a href="/blogs">menu</a></li>
+      <li><a href="/pages">pages</a></li>
+      <li><a href="/contact">contact</a></li>
+       <li><a href="/create">create</a></li> 
+       <% if (user) { %>
+        <li><a href="/logout">Log out</a></li>
+        <li>Welcome, <%=user.email%></li>
+      <% } else { %>
+        <li><a href="/login">login</a></li>
+        <li><a href="/signup" class="btn">signup</a></li>
+      <% } %> 
+    </ul>
+  </div>
+  <div class="book">
+    <a href="/book">book a table</a>
+  </div>
+</div>
+
+
+  
+
+  
+  

@@ -1,0 +1,32 @@
+<%- include("./partials/header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="create.css">
+</head>
+<body>
+    <form action="/blogs" method="POST">
+      <h2>create menu item:</h2>
+      <div class="create-form">
+        <div class="price-form">
+          <label for="price">price:</label>
+          <input type="text" id="price" name="price" required placeholder="enter the price">
+        </div>
+        <div class="title-form">
+          <label for="title">dish title:</label>
+        <input type="text" id="title" name="title" required placeholder="enter the title">
+        </div>
+        <div class="discription-form">
+          <label for="discription">discription:</label>
+        <textarea id="discription" name="discription" cols="50" rows="10" required placeholder="enter the discription"></textarea>
+        </div>
+        <button>Submit</button>
+      </div>
+    </form>
+</body>
+</html>
+<%- include("./partials/footer.ejs") %>
+  
+

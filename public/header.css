@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.top-bar{
+    background-color: 474747;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40px;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.phone p{
+    color: F9F9F7;
+    font-size: 16px;
+    margin: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.phone i{
+    color: F9F9F7;
+}
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.email p{
+    color: F9F9F7;
+    font-size: 16px;
+    margin: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.email i{
+    color: F9F9F7;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size:12px;
+    color: FFFFFF;
+    background: rgba(249, 249, 247, 12%); border-radius: 50%; width: 25px; height: 25px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    font-size: 35px;
+    margin-right: 15px;
+}
+.logo h1 a{
+    color:474747;
+    font-style: none;
+    text-decoration:none;
+    font-size: 42.67;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.links ul li a{
+    margin-left: 5px;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: 2C2F24;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.links ul li a:hover{
+    background-color: rgba(219, 223, 208, 100%);
+    background-size: 200px 100px;  
+    border-radius: 20px;
+}
+.book a{
+    color: 182226;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 20px 25px;
+    text-transform: capitalize;
+}
+
+

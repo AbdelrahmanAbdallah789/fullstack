@@ -1,0 +1,397 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu-text h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  color: 2C2F24;
+}
+.menu-text p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18;
+  color: 495460;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-list ul li{
+    margin: 20px;
+}
+.menu-list ul li p{
+    padding: 20px ;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18;
+    color: 2C2F24;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 30px;
+}
+.menu-list ul li p:hover{
+color: FFFFFF;
+background-color: AD343E;
+cursor: pointer;
+}
+.food-menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+}
+.food-menu1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.food-menu2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.food1{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.food1 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food1 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food1 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food1 p{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: 2C2F24;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.food2{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food2 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food2 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food2 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food2 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food3{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food3 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food3 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food3 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food3 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food4{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food4 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food4 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food4 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food4 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food5{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food5 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food5 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food5 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food5 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food6{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food6 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food6 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food6 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food6 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food7{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food7 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food7 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food7 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food7 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.food8{
+    margin: 10px;
+    text-align: center;
+    border: 1px solid ;
+    border-color: DBDFD0;
+    border-radius: 10px;
+}
+.food8 img{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px ;
+}
+.food8 h1{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: AD343E;
+}
+.food8 h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: 2C2F24;
+}
+.food8 p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.apps-menu{
+    display: flex;
+    align-content: center;
+    align-content: center;
+    background-color: rgba(249, 249, 247, 1);
+    margin: 120px;
+}
+.apps-text h1{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 55;
+}
+.apps-text p{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: 2C2F24;
+    font-size: 16px;
+}
+.apps-images{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 110px;
+}
+.apps-images img{
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
